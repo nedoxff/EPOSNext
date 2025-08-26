@@ -7,13 +7,16 @@
         <LangVersion>default</LangVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>EPOSNext</Title>
+        <PackageId>EPOSNext</PackageId>
+        <Version>1.0.0</Version>
         <Authors>nedoxff</Authors>
         <Description>A personal collection of additional utilities for the ESCPOS.NET library.</Description>
         <Copyright>nedoxff</Copyright>
         <PackageProjectUrl>https://github.com/nedoxff/EPOSNext</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/nedoxff/EPOSNext/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/nedoxff/EPOSNext</RepositoryUrl>
         <RepositoryType>GitHub</RepositoryType>
-        <PackageTags>thermal printer esc/pos receipt printer</PackageTags>
+        <PackageTags>thermal receipt printer esc/pos</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
