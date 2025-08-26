@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>default</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>EPOSNext</Title>
+        <Authors>nedoxff</Authors>
+        <Description>A personal collection of additional utilities for the ESCPOS.NET library.</Description>
+        <Copyright>nedoxff</Copyright>
+        <PackageProjectUrl>https://github.com/nedoxff/EPOSNext</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nedoxff/EPOSNext</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageTags>thermal printer esc/pos receipt printer</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ESCPOS_NET" Version="3.0.0"/>
+        <PackageReference Include="InTheHand.Net.Bluetooth" Version="4.2.2"/>
+        <PackageReference Include="LibUsbDotNet" Version="3.0.167-alpha"/>
+        <PackageReference Include="ZXing.Net" Version="0.16.10"/>
+        <PackageReference Include="ZXing.Net.Bindings.ImageSharp.V2" Version="0.16.17"/>
+    </ItemGroup>
+
+</Project>
