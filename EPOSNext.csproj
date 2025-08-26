@@ -13,10 +13,13 @@
         <Description>A personal collection of additional utilities for the ESCPOS.NET library.</Description>
         <Copyright>nedoxff</Copyright>
         <PackageProjectUrl>https://github.com/nedoxff/EPOSNext</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/nedoxff/EPOSNext/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.nuget.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/nedoxff/EPOSNext</RepositoryUrl>
         <RepositoryType>GitHub</RepositoryType>
         <PackageTags>thermal receipt printer esc/pos</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,6 +28,8 @@
         <PackageReference Include="LibUsbDotNet" Version="3.0.167-alpha"/>
         <PackageReference Include="ZXing.Net" Version="0.16.10"/>
         <PackageReference Include="ZXing.Net.Bindings.ImageSharp.V2" Version="0.16.17"/>
+        <None Include="README.nuget.md" Pack="true" PackagePath="\"/>
+        <None Include="LICENSE" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
